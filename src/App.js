@@ -1,9 +1,12 @@
 import getTweets from './Api'
 
+function test (res) {
+  console.log(res)
+}
+
 function App() {
-  getTweets().then(res => {
-    console.log(res)
-  })
+  getTweets('trump', false)
+    .then(test)
 
   return (
     <div className="App">
