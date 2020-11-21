@@ -21,7 +21,7 @@ export default function App () {
   ]
 
   useEffect(() => {
-    const busca = getTweets('natal', true)
+    getTweets('natal', true)
       .then(res => {
         setTweets(res.statuses)
       })

@@ -7,7 +7,7 @@ export default function Results(props) {
             <div class="dad_posts">
                 <div class="posts">
                     <div className="image_peoples">
-                        <img className="image" src={props.photo_user}/>
+                        <img className="image" src={props.photo_user} alt='Twitter ' />
                     </div>
                     <section className="text_posts">
                         <div className="text">
